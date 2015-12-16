@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Varitec Solutions</title>
+		<meta name="description" content="varitec solutions hvac">
+		<meta name="author" content="jacob debenedetto">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+		<link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+	</head>
+	<body>
+        <nav class="white"></nav>
+        
+        <div class="header2" style="background-image: url('img/about-header-main.jpg')">
+            <h1>Shaping</h1>
+            <h2>the future of hvac</h2>
+            <h3>Forming Another 40 Years of Leadership in Engineered HVAC Solutions</h3>
+        </div>
+        
+        <section>
+            <div class="wrapper pad-side">
+                <h2 class="center">40 Years of Leadership in Engineered HVAC Solutions</h2>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="carousel about-info"></div>
+                    </div>
+                    <div class="col-md-7">
+                        <p><strong>A legacy of leadership in engineered HVAC solutions</strong></p>
+                        <p>Varitec is a leader in the engineering, developing and installing large-scale, energy-efficient HVAC systems for commercial buildings. Whether we’re starting from scratch, upgrading an existing system, or setting up ongoing service and maintenance, Varitec is a single source for mechanical contractors, engineers, building owners, and general contractors. The “Wet Side” of our business emphasizes quality systems that make and distribute conditioned air inside occupied spaces. Through products manufactured by world’s leading HVAC companies, we’re able to support any air conditioning application in hospitals, schools, stadiums, resorts, office buildings, and other commercial facilities. On the “Dry Side,” Varitec’s experienced staff provides the fans and air distribution equipment needed to keep air moving through the HVAC system. We engineer, install, and maintain your system to the standards of excellence you demand. Representing a variety of manufacturers not only helps Varitec keep your projects under budget, it also allows us to create custom systems that are an exact match for your needs.</p>
+                    </div>
+                </div>
+                <div class="row" style="text-align: center;">
+                    <div class="col-md-3"><a href="about-locations.html" class="button gray effect-swing">View Our Locations</a></div>
+                    <div class="col-md-3"><a href="showcase.html" class="button gray effect-swing">View Our Projects</a></div>
+                    <div class="col-md-3"><a href="products.html" class="button gray effect-swing">View Our Line Cards</a></div>
+                    <div class="col-md-3"><a href="contact.html" class="button gray effect-swing">Contact Us</a></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="carousel about-carousel gray"></section>
+        
+        <section class="carousel about-logos"></section>
+        
+        <footer></footer>
+        
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.vide.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+		<script>
+            $(document).ready(function () {
+                $('nav').load('nav.html',function(){ setNav(0); });
+                $('.about-carousel').load('about-carousel.html');
+                $('.about-logos').load('about-carousel2.html');
+                $('.about-info').load('about-carousel3.html');
+                $('footer').load('footer.html');
+            });
+		</script>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+<div class="owl-carousel">
+    <!--<div class="item vide" data-vide-bg="video/video" data-vide-options="position: 50% 50%">
+        <div class="wrapper-vertical">
+            <h1>same legacy.</h1>
+            <h1>same team.</h1>
+            <h1>new name.</h1>
+            <h6>Over 40 years of Leadership in Engineered HVAC Solutions</h6>
+            <a href="about.html"><h6 class="green"><strong>about varitec</strong></h6></a>
+        </div>
+        <a href="#continue" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
+    </div>-->
+    
+    <div class="item vide" style="background-image: url('img/header1-bg3.jpg');">
+        <div class="wrapper-vertical">
+            <img src="img/500-dollars.png"/>
+            <h6>Sign up for your $500 storewide coupon*</h6>
+            <a class="black-button" href="coupon.html"><strong>Get $500 Coupon</strong></a>
+        </div>
+        <a href="#continue" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
+    </div>
+    
+    <div class="item vide" style="background-image: url('img/header1-bg4.jpg');">
+        <div class="wrapper-vertical">
+            <h6>In your home by Christmas</h6>
+            <img src="img/sale-text-large.png"/>
+            <a class="black-button" href="coupon.html"><strong>Save up to 33%</strong></a>
+        </div>
+        <a href="#continue" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
+    </div>
+    
+    <!--<div class="item vide" data-vide-bg="video/video2" data-vide-options="position: 50% 50%">
+        <div class="wrapper-vertical">
+            <h1>the world's</h1>
+            <h1>leading</h1>
+            <h1>products</h1>
+            <h6>Representing the world's leading HVAC brands</h6>
+            <a href="products.html"><h6 class="green"><strong>our product lines</strong></h6></a>
+        </div>
+        <a href="#continue" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
+    </div>-->
+</div>
+<div class="wrapper">
+    <img class="arrow left" src="img/left-arrow.png" onclick='$(".header1 .owl-carousel").trigger("owl.prev");'/>
+    <img class="arrow right" src="img/right-arrow.png" onclick='$(".header1 .owl-carousel").trigger("owl.next");'/>
+</div>
+<script>
+    $.getScript('js/jquery.vide.js');
+    fullscreen('.header1 .owl-carousel .item');
+    fullscreen('.header1');
+    $(".header1 .owl-carousel").owlCarousel({ slideSpeed : 300, paginationSpeed : 400, singleItem:true });
+    
+    //Smoothly Scroll to Anchors
+    var $root = $('html, body');
+    $('a').click(function () { var href = $.attr(this, 'href'); $root.animate({ scrollTop: ($(href).offset().top) - ($('nav').height()) }, 500, function () {}); return false;});
+    //if (isSafari()) $('.wrapper-vertical').addClass('fix');
+</script>

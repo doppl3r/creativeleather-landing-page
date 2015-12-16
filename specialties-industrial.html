@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Varitec Solutions</title>
+		<meta name="description" content="varitec solutions hvac">
+		<meta name="author" content="jacob debenedetto">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+		<link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+	</head>
+	<body>
+        <nav class="white"></nav>
+        
+        <div class="header2" style="background-image: url('img/specialties-background-industrial.jpg')">
+            <img src="img/industrial-icon.png"/>
+            <h2 style="margin-top: 16px;">Industrial</h2>
+        </div>
+        
+        <section>
+            <div class="wrapper pad-side">
+                <div class="row">
+                    <div class="left-nav col-md-4"></div>
+                    <div class="col-md-8">
+                        <h3>Industrial</h3>
+                        <p>Varitec understands the complexities involved in maintaining a safe, reliable environment in an industrial facility. Clients depend on our 40 years of expertise, experience, and understanding of their critical environments, including a wide range of demanding, high pressure and corrosive applications. Our team of specialists are dedicated to delivering a world-class owning experience with solutions responsive to the unique business challenges of each of our industrial clients.</p>
+                        <ul>
+                            <li><a href="products.html">Industry-leading products</a></li>
+                            <li>Sustainable and LEED® Solutions</li>
+                            <li>High Pressure Environments</li>
+                            <li>Corrosive applications</li>
+                            <li>Air and Ventilation</li>
+                            <li>and much more</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer></footer>
+        
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.vide.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+		<script>
+            $(document).ready(function () {
+                $('nav').load('nav.html',function(){ setNav(2); });
+                $('.left-nav').load('specialties-nav.html',function(){ setLeftNav(6); });
+                $('footer').load('footer.html');
+            });
+		</script>
+	</body>
+</html>

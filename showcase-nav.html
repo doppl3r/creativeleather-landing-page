@@ -1,0 +1,15 @@
+<ul class="left-nav">
+    <div class="toggle noselect"><li>View More Showcases<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></li></div>
+    <a class="effect-swing" href="showcase-a.html"><li>Healthcare</li></a>
+    <a class="effect-swing" href="showcase-b.html"><li>Education</li></a>
+    <a class="effect-swing" href="showcase-c.html"><li>Public Works</li></a>
+    <a class="effect-swing" href="showcase-d.html"><li>Commercial Solutions</li></a>
+    <a class="effect-swing" href="showcase-e.html"><li>Data Centers</li></a>
+    <a class="effect-swing" href="showcase-f.html"><li>Hospitality</li></a>
+    <a class="effect-swing" href="showcase-g.html"><li>Industrial</li></a>
+    <a class="effect-swing" href="showcase-h.html"><li>Government</li></a>
+</ul>
+<script>
+    function setLeftNav(i){ $('.left-nav').find('ul a').eq(i).addClass('active'); }
+    $(".toggle").click(function() { $('.left-nav').toggleClass("active"); });
+</script>

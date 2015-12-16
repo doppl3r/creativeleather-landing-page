@@ -1,0 +1,23 @@
+<div class="wrapper">
+    <h2>Furniture designed and handcrafted just for you.</h2>
+    <p>Browse our furniture, choose a style and we'll craft it for you.</p>
+    <div class="owl-carousel">
+        <div class="item">
+            <a href="http://www.creativeleather.com/Product/158/Chesterfield-Sofa"><img class="effect-swing" src="img/furniture-1.jpg" /></a>
+            <strong>Sofas & Loveseats</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non malesuada elit. Sed dui mi, blandit ut,</p>
+        </div>
+        <div class="item">
+            <a href="http://www.creativeleather.com/Product/152/Milan-Chairs"><img src="img/furniture-2.jpg" /></a>
+            <strong>Leading Products</strong>
+            <p>Sometimes the smallest parts can make a big difference. That’s why we only offer the world’s best products from the world’s leading manufacturers.</p>
+        </div>
+    </div>
+</div>
+<div class="wrapper navi">
+    <img class="arrow left" src="img/left-arrow-gray.png" onclick='$(".about-carousel .owl-carousel").trigger("owl.prev");' />
+    <img class="arrow right" src="img/right-arrow-gray.png" onclick='$(".about-carousel .owl-carousel").trigger("owl.next");' />
+</div>
+<script>
+    $(".about-carousel .owl-carousel").owlCarousel({ autoPlay: false, items : 2, itemsDesktop : [1199,2], itemsDesktopSmall : [979,2], itemsTablet : [768,1] });
+</script>

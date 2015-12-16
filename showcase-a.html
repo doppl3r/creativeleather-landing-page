@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Varitec Solutions</title>
+		<meta name="description" content="varitec solutions hvac">
+		<meta name="author" content="jacob debenedetto">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+		<link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+	</head>
+	<body>
+        <nav class="white"></nav>
+        
+        <div class="header2" style="background-image: url('img/specialties-header3.jpg')">
+            <img src="img/specialties-header-public-work-icon.png"/>
+            <h2 style="margin-top: 16px;">Healthcare</h2>
+        </div>
+        
+        <section>
+            <div class="wrapper pad-side">
+                <div class="row">
+                    <div class="left-nav col-md-4"></div>
+                    <div class="col-md-8">
+                        <h3>Safe, clean solutions engineered for healthcare</h3>
+                        <p>Varitec’s Healthcare Solutions Group is uniquely qualified to assess your nurse call, security, safety and comfort systems to provide the systems you need while integrating into the patient management infrastructure for precise record keeping, comfort and safety. Our focus on special systems allows us to provide the expertise you need to improve service and reduce operating expenses, while allowing staff to provide a positive patient care environment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="carousel showcase-carousel gray"></section>
+        
+        <footer></footer>
+        
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.vide.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+		<script>
+            $(document).ready(function () {
+                $('nav').load('nav.html',function(){ setNav(3); });
+                $('.left-nav').load('showcase-nav.html',function(){ setLeftNav(0); });
+                $('.showcase-carousel').load('showcase-carousel.html');
+                $('footer').load('footer.html');
+            });
+		</script>
+	</body>
+</html>

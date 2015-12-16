@@ -1,0 +1,18 @@
+<div class="wrapper">
+    <a href="index.html"><div class="logo"><img class="large" src="img/creative-leather-logo.png"/><img class="small" src="img/creative-leather-logo.png"/></div></a>
+    <ul class="effect-swing">
+        <a href="http://www.creativeleather.com/ProductList.aspx"><li>Products</li></a>
+        <a href="http://www.creativeleather.com/About.aspx"><li>About Us</li></a>
+        <a href="http://www.creativeleather.com/ProductList.aspx"><li>Coupon</li></a>
+        <a href="http://www.creativeleather.com/Locations.aspx"><li>Locations</li></a>
+        <div class="nav-button effect-swing"><img src="img/nav-button-gray.png"/></div>
+    </ul>
+</div>
+<script>
+    var color = $('nav').hasClass('color') ? true : false; //check if it starts color
+    $(window).scroll(function (event) {
+        if($(window).scrollTop()==0 && !color) { $('nav').removeClass('color'); }
+        else { $('nav').attr('class','color effect-swing');  }
+    });
+    function setNav(i){ $('nav').find('ul a').eq(i).addClass('active effect-swing'); }
+</script>
