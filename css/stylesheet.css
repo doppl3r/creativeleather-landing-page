@@ -50,8 +50,8 @@ nav.color ul a li { border-right-color: #fff; }*/
 
 .header2 { margin-top: 96px; padding: 64px 0; background: url('') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: center; }
 .header2.none { padding: 0; background: url('') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: center; }
-.header2 h1 { font-family: 'nesobrite'; font-size: 88px; color: #fff; text-transform: uppercase; margin: 0; line-height: 88px; }
-.header2 h2 { font-family: 'nesobrite'; font-size: 52px; color: #fff; text-transform: uppercase; margin: 0; line-height: 52px; }
+.header2 h1 { font-family: 'roboto-condensedregular'; font-size: 88px; color: #fff; text-transform: uppercase; margin: 0; line-height: 88px; }
+.header2 h2 { font-family: 'roboto-condensedregular'; font-size: 52px; color: #fff; text-transform: uppercase; margin: 0; line-height: 52px; text-shadow: 0 0 15px black; }
 .header2 h3 { font-family: 'roboto-condensedregular'; font-size: 20px; line-height: 20px; color: #fff; font-weight: normal; }
 .header2 p { font-family: 'roboto-condensedregular'; font-size: 20px; color: #fff; padding: 24px 0 0; }
 
@@ -80,6 +80,8 @@ section .button { display: inline-block; padding: 12px 24px; margin-bottom: 5%; 
 section .button:hover { opacity: 0.75; }
 section .button.gray { background-color: #474747; color: #fff; }
 section .button.gray:hover { opacity: initial; background-color: #9ebc42; }
+section .button.black { background-color: #000; color: #fff; }
+section .button.black:hover { opacity: initial; background-color: #999; }
 section .button.no-margin { margin: 0; }
 section .center { text-align: center; }
 section .no-margin { margin: initial; }
