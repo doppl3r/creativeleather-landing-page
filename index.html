@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
 	</head>
@@ -22,23 +23,22 @@
         <section class="carousel home-section"  style="background-image: url('img/header1-bg5.jpg');">
             <div class="wrapper">
                 <h2>Creatively Yours.</h2>
-                <a href="#"><img src="img/youtube-video-thumb1.jpg"/></a>
+                <a class="popup-youtube" href="http://www.youtube.com/watch?v=fDmfGcg7ftM"><img src="img/youtube-video-thumb1.jpg"/></a>
             </div>
         </section>
         
         <!--Playpin #2-->
-        <section class="carousel home-section"  style="background-image: url('img/background-leather.jpg');">
+        <!--<section class="carousel home-section"  style="background-image: url('img/background-leather.jpg');">
             <div class="wrapper red-shadow more-padding">
                 <img src="img/your-choice-thumb.png"/>
                 <h5>handcrafted for you</h5>
                 <h5>from your choice of</h5>
                 <h5>hundreds of leathers</h5>
             </div>
-        </section>
+        </section>-->
         
-        <!---->
-         <!--Playpin #2-->
-        <section class="carousel home-section"  style="background-image: url('img/header1-bg6.jpg');">
+        <!--Playpin #2-->
+        <section class="carousel home-section"  style="background-image: url('img/background-leather.jpg');">
             <div class="wrapper red-shadow">
                 <div class="row">
                     <div class="col-md-6 item pad-right-1">
@@ -70,7 +70,7 @@
 		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="js/magnific-popup.js"></script>
         <script type="text/javascript" src="js/functions.js"></script>
 		<script>
             //Load content
@@ -81,7 +81,8 @@
                 $('.about-carousel2').load('about-carousel2.html');
                 $('footer').load('footer.html');
                 $('body').fadeIn(2000);
-
+                
+                $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({ type: 'iframe', mainClass: 'mfp-fade', removalDelay: 160, preloader: false, fixedContentPos: false });
             });
 		</script>
 	</body>
