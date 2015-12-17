@@ -14,10 +14,10 @@ nav .logo img { max-width: 100%; max-height: 100%; }
 nav .logo .large { display: initial; }
 nav .logo .small { display: none; }
 nav ul { display: inline-block; padding: 0; margin: 0; vertical-align: top; float: right; pointer-events: auto; }
-nav ul > a { display: inline-block; line-height: 96px; color: #fff; font-size: 13.5px; margin-right:-4px; }
-nav ul > a.active > li { color: #84a229; font-weight: bold; }
-nav ul > a:hover { background-color: #fff; color: #000; }
-nav ul > a > li { display: inline; padding: 0px 20px; text-transform: uppercase; border-right: 1px solid #fff; }
+nav ul > a { display: inline-block; line-height: 96px; color: #fff; font-size: 14px; margin-right:-4px;  }
+nav ul > a.active > li { color: #84a229; font-weight: bold;  }
+nav ul > a:hover, nav ul > a:focus { background-color: #fff; color: #000; text-decoration: none; }
+nav ul > a > li { display: inline; padding: 0px 20px; font-family: 'roboto-condensedregular'; text-transform: capitalize; border-right: 1px solid #fff; }
 nav ul > a:last-of-type > li { border: none; }
 nav ul > a > li > a { display: none; }
 
@@ -52,6 +52,7 @@ nav.color { background-color: #000; }
 
 /*global styling*/
 section { background-color: #fff; padding: 48px 0; }
+section .wrapper { padding-left: 5%; padding-right: 5%; }
 section a:focus { outline: none; }
 section.no-bottom-padding { padding-bottom: 0; }
 section.bottom-line { border-bottom: 1px solid #ededed; }

@@ -16,7 +16,7 @@
             <h6>Sign up for your $500 storewide coupon*</h6>
             <a class="black-button" href="coupon.html"><strong>Get $500 Coupon</strong></a>
         </div>
-        <a href="#continue" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
+        <a href="#products" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
     </div>
     
     <div class="item vide" style="background-image: url('img/header1-bg4.jpg');">
@@ -25,7 +25,7 @@
             <img src="img/sale-text-large.png"/>
             <a class="black-button" href="coupon.html"><strong>Save up to 33%</strong></a>
         </div>
-        <a href="#continue" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
+        <a href="#products" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
     </div>
     
     <!--<div class="item vide" data-vide-bg="video/video2" data-vide-options="position: 50% 50%">
@@ -51,6 +51,6 @@
     
     //Smoothly Scroll to Anchors
     var $root = $('html, body');
-    $('a').click(function () { var href = $.attr(this, 'href'); $root.animate({ scrollTop: ($(href).offset().top) - ($('nav').height()) }, 500, function () {}); return false;});
+    $('a').click(function () { var href = $.attr(this, 'href'); $root.animate({ scrollTop: ($(href).offset().top) - ($('nav').height()) + 1 }, 500, function () {}); return false;});
     //if (isSafari()) $('.wrapper-vertical').addClass('fix');
 </script>

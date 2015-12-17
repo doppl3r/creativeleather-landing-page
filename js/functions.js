@@ -34,8 +34,13 @@ function sliceExtension(){
 }
 
 //Google Analytics
-//$('script:last').appendTo('body').load('js/varitec-GA.js');
-var script = document.createElement( 'script' );
-script.type = 'text/javascript';
-script.src = 'js/custom-GA.js';
-$("body").append( script );
+var script1 = document.createElement( 'script' );
+script1.type = 'text/javascript';
+script1.src = 'js/custom-GA.js';
+$("body").append( script1 );
+
+//AdRoll Pixel
+var script2 = document.createElement( 'script' );
+script2.type = 'text/javascript';
+script2.src = 'js/adroll-pixel.js';
+$("body").append( script2 );
