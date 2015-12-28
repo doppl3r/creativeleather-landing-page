@@ -116,6 +116,7 @@ section .visitor-carousel .navi { position: absolute; top: 0; bottom: 0; left: 0
 .home-section h2 { font-family: 'roboto-condensedregular'; color: #fff; font-size: 38px; }
 .home-section h5 { font-family: 'roboto-condensedregular'; color: #fff; font-size: 28px; text-transform: uppercase; }
 .home-section h6 { font-family: 'roboto-condensedregular'; color: #fff; font-size: 20px; }
+.home-section h6.smaller { font-size: 13px; }
 .home-section .wrapper.red-shadow h6 { text-shadow: 0px 0px 9px #440a00; }
 
 .carousel { position: relative; }
