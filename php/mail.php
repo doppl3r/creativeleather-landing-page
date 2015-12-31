@@ -12,18 +12,17 @@ require 'class.phpmailer.php';
 $mail = new PHPMailer();
 //$mail->isSendmail();
 //Set who the message is to be sent from
-$mail->setFrom($_REQUEST['email'], $_REQUEST['name']);
+$mail->setFrom($_REQUEST['email'], $_REQUEST['fname']);
 //Set who the message is to be sent to
-$mail->addAddress('deben3@gmail.com');
+$mail->addAddress($_REQUEST['email']);
 //Set the subject line
-$mail->Subject = 'New Contact form filled out!';
+$mail->Subject = 'Special Creative Leather Coupon for '.$_REQUEST['fname'].'!';
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
-$message =  '<div style="padding: 64px; background-color: #000; max-width: 480px; margin: 0 auto; text-align: center;">'.
-            '<p style="color: #fff; font-size: 24px;"><strong>Somebody wants to contact you!</strong></p>'.
-            '<p style="color: #fff; font-size: 24px;"><strong>Name:</strong> '.$_REQUEST['fname'].' '.$_REQUEST['lname'].'</p>'.
-            '<p style="color: #fff; font-size: 24px;"><strong>Email Address:</strong> '.$_REQUEST['email'].'</p>'.
-            '<p style="color: #fff; font-size: 24px;"><strong>Comment:</strong> '.$_REQUEST['comment'].'</p>'.
+$message =  '<div style="background-color: #fff; max-width: 800px; margin: 0 auto; text-align: center; color: #000; font-size: 18px;">'.
+            '<p>Thank you for signing up for our special Coupon '.$_REQUEST['fname'].'!</p>'.
+            '<p>Please print and cut out the receipt below to redeem your offer at one of our facilities!</p>'.
+            '<img src="../img/coupon.jpg" />'.
             '</div>';
 $mail->msgHTML($message);
 //send the message, check for errors
