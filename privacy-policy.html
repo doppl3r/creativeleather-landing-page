@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Creative Leather</title>
+		<meta name="description" content="creative leather custom fine furniture">
+		<meta name="author" content="jacob debenedetto">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+	</head>
+	<body style="display:none; background-color: #222326; overflow-x:hidden;">
+        <!--include page elemnts-->
+        <section>
+            <div class="wrapper">
+                <h1>Privacy Policy</h1>
+                <ul>
+                    <li>The Creative Leather website uses cookies, tracking pixels and related technologies. </li>
+                    <li>Cookies are small data files that are served by our platform and stored on your device. </li>
+                    <li>Our site uses cookies dropped by us or third parties for a variety of purposes including to operate and personalize the website. </li>
+                    <li>Also, cookies may also be used to track how you use the site to target ads to you on other websites.  </li>
+                    <li>Then in the next section of the notice we link out to the industry opt-out sites described above.</li>
+                </ul>
+                <a href="index.html" class="button effect-swing black-button">go back</a>
+            </div>
+        </section>
+
+
+        <!--construct pages with js-->
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/magnific-popup.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+		<script>
+            //Load content
+            $(document).ready(function () {
+                $('nav').load('nav.html');
+                $('.header1').load('header1.html');
+                $('.about-carousel').load('about-carousel.html');
+                $('.about-carousel2').load('about-carousel2.html');
+                $('footer').load('footer.html');
+                $('body').fadeIn(2000);
+
+                $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({ type: 'iframe', mainClass: 'mfp-fade', removalDelay: 160, preloader: false, fixedContentPos: false });
+
+            });
+		</script>
+	</body>
+</html>
