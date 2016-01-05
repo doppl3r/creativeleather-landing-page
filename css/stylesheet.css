@@ -82,7 +82,8 @@ section .no-margin { margin: initial; }
 section form { margin: 0px auto; max-width: 640px; color: #666666; }
 section form .form-control { background-color: rgba(255,255,255,0.75); border: 1px solid #000; border-radius: 5px; box-shadow: none; margin-bottom: 16px; height: 64px; line-height: 64px; }
 section form textarea.form-control { line-height: initial; height: 128px; padding-top: 24px; }
-section form .black-button { display: block; width: 100%; padding: 16px 32px; margin: 16px 0; font-size: 24px; text-transform: uppercase; font-family: 'roboto-condensedregular'; border: 1px solid #fff; background-color: rgba(0,0,0,0.8); color: #fff; }
+section .black-button { display: block; width: 100%; padding: 16px 32px; margin: 16px 0; font-size: 24px; text-transform: uppercase; font-family: 'roboto-condensedregular'; border: 1px solid #fff; background-color: rgba(0,0,0,0.8); color: #fff; }
+section .black-button:hover { color: #fff; }
 
 section.gray { background-color: #e8e8e8; }
 section.clear { background-color: transparent; }

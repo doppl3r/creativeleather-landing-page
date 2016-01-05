@@ -1,6 +1,7 @@
 adroll_adv_id = "BBEB42G2GZFWDABCZE4L6V";
 adroll_pix_id = "HGDBO36QNVCLXDRNVE2CPQ";
-// adroll_email = "username@example.com"; // OPTIONAL: provide email to improve user identification
+/* OPTIONAL: provide email to improve user identification */
+adroll_email = "egregory@creativeleather.com";
 (function () {
     var _onload = function(){
         if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
