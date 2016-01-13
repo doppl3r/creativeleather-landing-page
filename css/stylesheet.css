@@ -38,7 +38,7 @@ nav.color { background-color: #000; }
 .header1 .vide h6 { margin: 16px 0; font-size: 32px; color: #fff; font-family: 'roboto-condensedregular'; font-weight: normal; }
 .header1 .vide h6.green { color: #9ebc42;  }
 .header1 .vide h6 strong { text-transform: uppercase; }
-.header1 .vide .black-button { display: inline-block; padding: 16px 32px; margin: 16px 0; font-size: 24px; text-transform: uppercase; font-family: 'roboto-condensedregular'; border: 1px solid #fff; background-color: rgba(0,0,0,0.8); color: #fff; }
+.header1 .vide .black-button { display: inline-block; padding: 16px 32px; margin: 16px 0; font-size: 24px; text-transform: uppercase; font-family: 'roboto-condensedregular'; border: 1px solid #fff; background-color: rgba(0,0,0,0.8); color: #fff; min-width: 248px; }
 .header1 .vide .button { position: absolute; color: #fff; font-family: 'roboto-condensedlight'; font-size: 15px; text-align: center; left:0; right:0; bottom: 0; }
 .header1 .vide .button span { display: block; text-transform: uppercase; }
 .header1 .vide .button img { width: 32px; padding-bottom: 16px; }
