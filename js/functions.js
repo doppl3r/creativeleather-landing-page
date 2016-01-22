@@ -44,3 +44,9 @@ var script2 = document.createElement( 'script' );
 script2.type = 'text/javascript';
 script2.src = 'js/adroll-pixel.js';
 $("body").append( script2 );
+
+//Facebook Pixel
+var script3 = document.createElement( 'script' );
+script3.type = 'text/javascript';
+script3.src = 'js/facebook-pixel.js';
+$("body").append( script3 );

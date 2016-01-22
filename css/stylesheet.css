@@ -35,12 +35,12 @@ nav.color { background-color: #000; }
 .header1 .vide { text-align: center; position: relative; background: url('') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .header1 .vide img { max-width: 100%; display: block; margin: 0 auto; }
 .header1 .vide h1 { font-family: 'nesobrite'; font-size: 72px; line-height: 72px; text-transform: uppercase; color: #fff; margin: 0; padding: 0; }
-.header1 .vide h6 { margin: 16px 0; font-size: 32px; color: #fff; font-family: 'roboto-condensedregular'; font-weight: normal; }
+.header1 .vide h6 { margin: 16px 0; font-size: 18px; color: #fff; font-family: 'roboto-condensedregular'; font-weight: normal; }
 .header1 .vide h6.green { color: #9ebc42;  }
 .header1 .vide h6 strong { text-transform: uppercase; }
-.header1 .vide .black-button { display: inline-block; padding: 16px 32px; margin: 16px 0; font-size: 24px; text-transform: uppercase; font-family: 'roboto-condensedregular'; border: 1px solid #fff; background-color: rgba(0,0,0,0.8); color: #fff; min-width: 248px; }
+.header1 .vide .black-button { display: inline-block; padding: 16px 32px; margin: 12px 0; font-size: 24px; text-transform: uppercase; font-family: 'roboto-condensedregular'; border: 1px solid #fff; background-color: rgba(0,0,0,0.8); color: #fff; min-width: 248px; }
 .header1 .vide .button { position: absolute; color: #fff; font-family: 'roboto-condensedlight'; font-size: 15px; text-align: center; left:0; right:0; bottom: 0; }
-.header1 .vide .button span { display: block; text-transform: uppercase; }
+.header1 .vide .button span { display: block; }
 .header1 .vide .button img { width: 32px; padding-bottom: 16px; }
 
 .header2 { margin-top: 96px; padding: 64px 0; background: url('') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: center; }
@@ -236,7 +236,7 @@ img.zoom-out:hover { -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -m
 }
 @media(max-height: 639px) and (orientation: landscape){
     /*prevent nav from covering content*/
-    nav.color { position: relative; }
+    /*nav.color { position: relative; }*/
     .header1 .vide .wrapper-vertical { /*padding: 0px 32px;*/ }
     .header1 .vide h1 { font-size: 32px; line-height: 32px; }
     .header2 { margin: 0; }
