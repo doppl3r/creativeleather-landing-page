@@ -1,15 +1,15 @@
-/* line 2, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 2, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 html {
   background-color: #fff; }
 
-/* line 3, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 3, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 body {
   background-color: #fff;
   /*font-family: 'roboto-condensedbold';*/
   overflow-x: hidden;
   font-size: 16px; }
 
-/* line 4, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 4, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 body.bg {
   background: url("") no-repeat bottom center;
   -webkit-background-size: cover;
@@ -17,22 +17,22 @@ body.bg {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 5, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 5, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 body.gray {
   background-color: #e8e8e8; }
 
-/* line 6, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 6, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 a, a:hover {
   text-decoration: none; }
 
-/* line 7, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 7, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .wrapper {
   display: block;
   max-width: 1024px;
   margin: 0 auto; }
 
 /*nav layout*/
-/* line 10, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 10, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav {
   display: block;
   background-color: #000;
@@ -43,30 +43,30 @@ nav {
   width: 100%;
   z-index: 1; }
 
-/* line 11, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 11, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav .wrapper {
   pointer-events: none; }
 
-/* line 12, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 12, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav .logo {
   display: inline-block;
   padding: 24px 16px;
   pointer-events: auto; }
 
-/* line 16, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 16, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav .logo img {
   max-width: 100%;
   max-height: 100%; }
 
-/* line 21, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 21, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav .logo .large {
   display: initial; }
 
-/* line 22, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 22, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav .logo .small {
   display: none; }
 
-/* line 23, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 23, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav ul {
   display: inline-block;
   padding: 0;
@@ -75,7 +75,7 @@ nav ul {
   float: right;
   pointer-events: auto; }
 
-/* line 24, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 24, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav ul > a {
   display: inline-block;
   line-height: 96px;
@@ -83,18 +83,18 @@ nav ul > a {
   font-size: 14px;
   margin-right: -4px; }
 
-/* line 25, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 25, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav ul > a.active > li {
   color: #84a229;
   font-weight: bold; }
 
-/* line 26, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 26, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav ul > a:hover, nav ul > a:focus {
   background-color: #fff;
   color: #000;
   text-decoration: none; }
 
-/* line 27, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 27, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav ul > a > li {
   display: inline;
   padding: 0px 20px;
@@ -102,28 +102,28 @@ nav ul > a > li {
   text-transform: capitalize;
   border-right: 1px solid #fff; }
 
-/* line 28, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 28, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav ul > a:last-of-type > li {
   border: none; }
 
-/* line 29, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 29, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav ul > a > li > a {
   display: none; }
 
-/* line 31, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 31, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav .nav-button {
   display: none; }
 
-/* line 32, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 32, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 nav.color {
   background-color: #000; }
 
 /*header styles*/
-/* line 36, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 36, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header1 {
   background-color: #555; }
 
-/* line 37, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 37, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header1 > .wrapper {
   position: absolute;
   left: 0;
@@ -132,7 +132,7 @@ nav.color {
   bottom: 0;
   pointer-events: none; }
 
-/* line 38, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 38, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header1 .wrapper-vertical {
   position: relative;
   top: 50%;
@@ -143,7 +143,7 @@ nav.color {
   -o-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-/* line 39, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 39, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header1 .arrow {
   height: 72px;
   width: auto;
@@ -153,91 +153,86 @@ nav.color {
   cursor: pointer;
   pointer-events: auto; }
 
-/* line 40, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 40, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header1 .arrow.left {
   left: -32px; }
 
-/* line 41, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 41, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header1 .arrow.right {
   right: -32px; }
 
-/* line 42, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 43, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header1 .vide {
   text-align: center;
   position: relative;
-  background: url("") no-repeat bottom center;
+  background: url("") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  /* line 45, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+  .header1 .vide .black-button {
+    display: inline-block;
+    padding: 16px 32px;
+    margin: 10% 0 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'roboto-condensedregular';
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    min-width: 248px; }
+    /* line 47, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+    .header1 .vide .black-button span {
+      display: block;
+      font-size: 18px; }
+  /* line 49, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+  .header1 .vide img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto; }
+  /* line 50, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+  .header1 .vide h1 {
+    font-family: 'nesobrite';
+    font-size: 72px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    padding: 0; }
+  /* line 51, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+  .header1 .vide h6 {
+    margin: 16px 0;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'roboto-condensedregular';
+    font-weight: normal; }
+    /* line 53, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+    .header1 .vide h6.green {
+      color: #9ebc42; }
+    /* line 54, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+    .header1 .vide h6 strong {
+      text-transform: uppercase; }
+  /* line 56, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+  .header1 .vide .button {
+    position: absolute;
+    color: #fff;
+    font-family: 'roboto-condensedlight';
+    font-size: 15px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+    /* line 58, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+    .header1 .vide .button span {
+      display: block; }
+    /* line 59, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+    .header1 .vide .button img {
+      width: 32px;
+      padding-bottom: 16px; }
 
-/* line 43, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
-.header1 .vide img {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin: 0 auto; }
-
-/* line 44, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
-.header1 .vide h1 {
-  font-family: 'nesobrite';
-  font-size: 72px;
-  line-height: 72px;
-  text-transform: uppercase;
-  color: #fff;
-  margin: 0;
-  padding: 0; }
-
-/* line 45, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
-.header1 .vide h6 {
-  margin: 16px 0;
-  font-size: 18px;
-  color: #fff;
-  font-family: 'roboto-condensedregular';
-  font-weight: normal; }
-
-/* line 46, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
-.header1 .vide h6.green {
-  color: #9ebc42; }
-
-/* line 47, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
-.header1 .vide h6 strong {
-  text-transform: uppercase; }
-
-/* line 48, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
-.header1 .vide .black-button {
-  display: inline-block;
-  padding: 16px 32px;
-  margin: 12px 0;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-family: 'roboto-condensedregular';
-  border: 1px solid #fff;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  min-width: 248px; }
-
-/* line 49, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
-.header1 .vide .button {
-  position: absolute;
-  color: #fff;
-  font-family: 'roboto-condensedlight';
-  font-size: 15px;
-  text-align: center;
-  left: 0;
-  right: 0;
-  bottom: 0; }
-
-/* line 50, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
-.header1 .vide .button span {
-  display: block; }
-
-/* line 51, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
-.header1 .vide .button img {
-  width: 32px;
-  padding-bottom: 16px; }
-
-/* line 53, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 64, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header2 {
   margin-top: 96px;
   padding: 64px 0;
@@ -248,7 +243,7 @@ nav.color {
   background-size: cover;
   text-align: center; }
 
-/* line 54, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 65, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header2.none {
   padding: 0;
   background: url("") no-repeat bottom center;
@@ -258,7 +253,7 @@ nav.color {
   background-size: cover;
   text-align: center; }
 
-/* line 55, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 66, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header2 h1 {
   font-family: 'roboto-condensedregular';
   font-size: 88px;
@@ -267,7 +262,7 @@ nav.color {
   margin: 0;
   line-height: 88px; }
 
-/* line 56, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 67, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header2 h2 {
   font-family: 'roboto-condensedregular';
   font-size: 52px;
@@ -277,7 +272,7 @@ nav.color {
   line-height: 52px;
   text-shadow: 0 0 15px black; }
 
-/* line 57, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 68, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header2 h3 {
   font-family: 'roboto-condensedregular';
   font-size: 20px;
@@ -285,7 +280,7 @@ nav.color {
   color: #fff;
   font-weight: normal; }
 
-/* line 58, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 69, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .header2 p {
   font-family: 'roboto-condensedregular';
   font-size: 20px;
@@ -293,29 +288,29 @@ nav.color {
   padding: 24px 0 0; }
 
 /*global styling*/
-/* line 61, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 72, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section {
   background-color: #fff;
   padding: 48px 0; }
 
-/* line 62, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 73, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .wrapper {
   padding-left: 5%;
   padding-right: 5%; }
 
-/* line 63, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 74, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section a:focus {
   outline: none; }
 
-/* line 64, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 75, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section.no-bottom-padding {
   padding-bottom: 0; }
 
-/* line 65, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 76, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section.bottom-line {
   border-bottom: 1px solid #ededed; }
 
-/* line 66, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 77, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section h2 {
   font-family: 'roboto-condensedregular';
   font-size: 32px;
@@ -324,11 +319,11 @@ section h2 {
   color: #494949;
   font-weight: normal; }
 
-/* line 67, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 78, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section h2.center {
   text-align: center; }
 
-/* line 68, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 79, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section h3 {
   font-family: 'roboto-condensedregular';
   font-size: 28px;
@@ -338,7 +333,7 @@ section h3 {
   color: #494949;
   font-weight: bold; }
 
-/* line 69, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 80, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section h4 {
   font-family: 'roboto-condensedregular';
   font-size: 21px;
@@ -348,56 +343,56 @@ section h4 {
   color: #494949;
   font-weight: normal; }
 
-/* line 70, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 81, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section p {
   font-family: 'roboto-condensedlight';
   font-size: 18px;
   color: #4a4a4a;
   margin-bottom: 5%; }
 
-/* line 71, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 82, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section ul {
   font-family: 'roboto-condensedlight';
   font-size: 18px;
   color: #4a4a4a; }
 
-/* line 72, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 83, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section ul li a {
   font-size: inherit;
   font-family: inherit;
   color: #9ebc42; }
 
-/* line 73, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 84, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section p strong {
   font-size: 21px; }
 
-/* line 74, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 85, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section a {
   font-family: 'roboto-condensedbold';
   font-size: 21px;
   color: #4a4a4a;
   margin-bottom: 5%; }
 
-/* line 75, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 86, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section a:hover {
   color: #9ebc42; }
 
-/* line 76, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 87, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section img {
   max-width: 100%;
   padding-bottom: 5%; }
 
-/* line 77, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 88, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section img.block {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 78, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 89, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .wrapper.pad-side {
   padding: 0px 12px; }
 
-/* line 79, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 90, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .button {
   display: inline-block;
   padding: 12px 24px;
@@ -406,49 +401,49 @@ section .button {
   font-family: 'roboto-condensedbold';
   font-size: 18px; }
 
-/* line 80, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 91, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .button:hover {
   opacity: 0.75; }
 
-/* line 81, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 92, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .button.gray {
   background-color: #474747;
   color: #fff; }
 
-/* line 82, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 93, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .button.gray:hover {
   opacity: initial;
   background-color: #9ebc42; }
 
-/* line 83, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 94, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .button.black {
   background-color: #000;
   color: #fff; }
 
-/* line 84, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 95, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .button.black:hover {
   opacity: initial;
   background-color: #999; }
 
-/* line 85, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 96, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .button.no-margin {
   margin: 0; }
 
-/* line 86, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 97, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .center {
   text-align: center; }
 
-/* line 87, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 98, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .no-margin {
   margin: initial; }
 
-/* line 89, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 100, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section form {
   margin: 0px auto;
   max-width: 640px;
   color: #666666; }
 
-/* line 90, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 101, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section form .form-control {
   background-color: rgba(255, 255, 255, 0.75);
   border: 1px solid #000;
@@ -458,13 +453,13 @@ section form .form-control {
   height: 64px;
   line-height: 64px; }
 
-/* line 91, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 102, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section form textarea.form-control {
   line-height: initial;
   height: 128px;
   padding-top: 24px; }
 
-/* line 92, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 103, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .black-button {
   display: block;
   width: 100%;
@@ -477,29 +472,29 @@ section .black-button {
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff; }
 
-/* line 93, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 104, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .black-button:hover {
   color: #fff; }
 
-/* line 95, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 106, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section.gray {
   background-color: #e8e8e8; }
 
-/* line 96, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 107, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section.clear {
   background-color: transparent; }
 
-/* line 97, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 108, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel {
   margin-top: -80px;
   text-align: center;
   padding-bottom: 5%; }
 
-/* line 98, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 109, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel .item {
   padding: 0 5%; }
 
-/* line 99, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 110, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel .wrapper {
   position: relative;
   max-width: 720px;
@@ -508,7 +503,7 @@ section .visitor-carousel .wrapper {
   padding: 5% 2.5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05); }
 
-/* line 100, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 111, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel .arrow {
   width: 64px;
   height: 64px;
@@ -518,40 +513,40 @@ section .visitor-carousel .arrow {
   top: 50%;
   pointer-events: auto; }
 
-/* line 101, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 112, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel .arrow:hover {
   opacity: .75;
   cursor: pointer; }
 
-/* line 102, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 113, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel .arrow img {
   max-width: 100%;
   max-height: 100%; }
 
-/* line 103, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 114, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel .arrow.left {
   float: left;
   margin-top: -32px;
   left: -32px; }
 
-/* line 104, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 115, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel .arrow.right {
   float: right;
   margin-top: -32px;
   right: -32px; }
 
-/* line 105, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 116, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel h3 {
   margin: 0;
   padding: 0 0 8px;
   font-size: 24px;
   line-height: 24px; }
 
-/* line 106, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 117, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel .left-justify {
   text-align: left; }
 
-/* line 107, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 118, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel .button {
   padding: 21px 64px;
   background-color: #9ebd3d;
@@ -563,7 +558,7 @@ section .visitor-carousel .button {
   width: 33.3334%;
   pointer-events: auto; }
 
-/* line 108, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 119, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 section .visitor-carousel .navi {
   position: absolute;
   top: 0;
@@ -573,16 +568,16 @@ section .visitor-carousel .navi {
   pointer-events: none; }
 
 /*carousel styling*/
-/* line 111, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 122, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .about-carousel {
   text-align: center;
   padding: 0 0 5% 0; }
 
-/* line 112, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 123, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .about-carousel.gray {
   background-color: #e8e8e8; }
 
-/* line 113, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 124, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .about-carousel h2 {
   color: #494949;
   font-family: 'roboto-condensedregular';
@@ -590,21 +585,21 @@ section .visitor-carousel .navi {
   padding: 5% 0 1%;
   margin: 0; }
 
-/* line 114, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 125, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .about-carousel .owl-carousel .item {
   padding: 0 7.5%; }
 
-/* line 115, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 126, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .about-carousel .owl-carousel .item a {
   display: inline-block; }
 
-/* line 116, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 127, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .about-carousel .owl-carousel .item img {
   max-width: 100%;
   display: block;
   padding-bottom: initial; }
 
-/* line 117, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 128, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .about-carousel .owl-carousel .item strong {
   margin: 4px 0;
   display: block;
@@ -612,18 +607,18 @@ section .visitor-carousel .navi {
   color: #4a4a4a;
   font-family: 'roboto-condensedbold'; }
 
-/* line 118, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 129, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .about-carousel .owl-carousel .item p {
   margin: 4px 0;
   font-family: 'roboto-condensedlight';
   font-size: 18px;
   color: #4a4a4a; }
 
-/* line 119, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 130, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .about-carousel .owl-carousel .owl-wrapper-outer {
   /*overflow: visible;*/ }
 
-/* line 121, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 132, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .home-section {
   padding: 0;
   text-align: center;
@@ -633,46 +628,46 @@ section .visitor-carousel .navi {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 122, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 133, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .home-section .wrapper {
   padding: 5%; }
 
-/* line 123, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 134, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .home-section .wrapper.more-padding {
   padding: 10%; }
 
-/* line 124, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 135, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .home-section h2 {
   font-family: 'roboto-condensedregular';
   color: #fff;
   font-size: 38px; }
 
-/* line 125, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 136, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .home-section h5 {
   font-family: 'roboto-condensedregular';
   color: #fff;
   font-size: 28px;
   text-transform: uppercase; }
 
-/* line 126, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 137, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .home-section h6 {
   font-family: 'roboto-condensedregular';
   color: #fff;
   font-size: 20px; }
 
-/* line 127, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 138, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .home-section h6.smaller {
   font-size: 13px; }
 
-/* line 128, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 139, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .home-section .wrapper.red-shadow h6 {
   text-shadow: 0px 0px 9px #440a00; }
 
-/* line 130, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 141, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .carousel {
   position: relative; }
 
-/* line 131, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 142, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .carousel > .wrapper.navi {
   position: absolute;
   left: 0;
@@ -681,7 +676,7 @@ section .visitor-carousel .navi {
   bottom: 0;
   pointer-events: none; }
 
-/* line 132, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 143, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .carousel > .wrapper.navi .arrow {
   height: 72px;
   width: auto;
@@ -691,64 +686,64 @@ section .visitor-carousel .navi {
   cursor: pointer;
   pointer-events: auto; }
 
-/* line 133, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 144, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .carousel > .wrapper.navi img.arrow {
   padding-bottom: initial; }
 
-/* line 134, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 145, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .carousel > .wrapper.navi .arrow.left {
   left: -32px; }
 
-/* line 135, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 146, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .carousel > .wrapper.navi .arrow.right {
   right: -32px; }
 
-/* line 137, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 148, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .showcase-carousel {
   text-align: center;
   padding: 5% 0 5% 0; }
 
-/* line 138, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 149, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .showcase-carousel.gray {
   background-color: #ececec; }
 
-/* line 139, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 150, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .showcase-carousel h4 {
   margin-bottom: 48px;
   font-family: 'roboto-condensedbold';
   color: #505050; }
 
-/* line 140, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 151, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .showcase-carousel .owl-carousel .item img {
   max-height: 96px;
   width: auto; }
 
-/* line 143, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 154, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .about-logos .owl-carousel .item {
   text-align: center; }
 
 /*footer styles*/
-/* line 146, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 157, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer {
   background-color: #000;
   padding: 72px 12px; }
 
-/* line 147, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 158, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer .item {
   text-align: left; }
 
-/* line 148, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 159, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer .social-media {
   display: block;
   margin-bottom: 8px; }
 
-/* line 149, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 160, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer ul {
   list-style: none;
   padding: 0;
   margin: 0; }
 
-/* line 150, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 161, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer ul a {
   display: block;
   color: #fff;
@@ -757,15 +752,15 @@ footer ul a {
   font-family: "roboto-condensedlight";
   word-wrap: break-word; }
 
-/* line 151, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 162, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer ul a:hover {
   color: #494949; }
 
-/* line 152, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 163, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer ul a li strong {
   font-family: "roboto-condensedbold"; }
 
-/* line 153, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 164, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer .divider1 {
   display: inline-block;
   height: 128px;
@@ -773,73 +768,73 @@ footer .divider1 {
   margin: 0 26px 0 -30px;
   border-right: 1px solid #333; }
 
-/* line 154, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 165, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer .divider2 {
   margin: 21px 0px;
   border-bottom: 1px solid #fff; }
 
-/* line 155, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 166, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer img {
   vertical-align: top;
   max-width: 100%; }
 
-/* line 156, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 167, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer img.icon:hover {
   opacity: .25; }
 
-/* line 157, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 168, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer .center {
   text-align: center; }
 
-/* line 158, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 169, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer p {
   font-family: "roboto-condensedlight";
   font-size: 14px;
   color: #fff; }
 
-/* line 159, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 170, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 footer .pad-top {
   padding-top: 5%; }
 
 /*Bootstrap Override*/
-/* line 162, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 173, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .col-md-6:first-of-type {
   padding-right: 8px; }
 
-/* line 163, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 174, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .col-md-6:last-of-type {
   padding-left: 7px; }
 
-/* line 164, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 175, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .col-md-6.pad-right-1 {
   padding-right: 8.3334%; }
 
 /*class mutators*/
-/* line 167, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 178, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .effect-swing {
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease; }
 
-/* line 168, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 179, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .effect-swing-slow {
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out; }
 
-/* line 169, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 180, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .rotate {
   -webkit-transition: -webkit-transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out; }
 
-/* line 170, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 181, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .rotate:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg); }
 
-/* line 171, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 182, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 img.zoom-in {
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -847,7 +842,7 @@ img.zoom-in {
   -o-transition: all 500ms ease;
   transition: all 500ms ease; }
 
-/* line 172, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 183, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 img.zoom-in:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.1);
@@ -855,7 +850,7 @@ img.zoom-in:hover {
   -o-transform: scale(1.1);
   transform: scale(1.1); }
 
-/* line 173, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 184, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 img.zoom-out {
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -863,7 +858,7 @@ img.zoom-out {
   -o-transition: all 500ms ease;
   transition: all 500ms ease; }
 
-/* line 174, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 185, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 img.zoom-out:hover {
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
@@ -871,7 +866,7 @@ img.zoom-out:hover {
   -o-transform: scale(0.9);
   transform: scale(0.9); }
 
-/* line 175, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+/* line 186, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -881,22 +876,22 @@ img.zoom-out:hover {
   user-select: none; }
 
 @media (max-width: 1024px) {
-  /* line 178, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 189, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .header1 .arrow.left {
     left: 0px;
     height: 32px;
     padding: 8px; }
-  /* line 179, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 190, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .header1 .arrow.right {
     right: 0px;
     height: 32px;
     padding: 8px; }
-  /* line 180, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 191, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .carousel > .wrapper.navi .arrow.left {
     left: 0px;
     height: 32px;
     padding: 8px; }
-  /* line 181, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 192, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .carousel > .wrapper.navi .arrow.right {
     right: 0px;
     height: 32px;
@@ -904,7 +899,7 @@ img.zoom-out:hover {
 
 @media (max-width: 800px) {
   /*mobile*/
-  /* line 185, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 196, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   nav .nav-button {
     display: inline-block;
     left: -56px;
@@ -914,14 +909,14 @@ img.zoom-out:hover {
     line-height: 96px;
     width: 56px;
     text-align: center; }
-  /* line 186, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 197, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   nav .nav-button img {
     display: inline-block;
     vertical-align: middle;
     margin-right: -4px; }
   /*nav .logo { padding: 0px; }
     nav .logo img { padding: 16px; height: 96px; }*/
-  /* line 189, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 200, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   nav ul {
     position: absolute;
     background-color: #000;
@@ -930,66 +925,66 @@ img.zoom-out:hover {
     width: 100%;
     text-align: center;
     padding-top: 96px; }
-  /* line 190, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 201, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   nav ul:hover {
     left: 50%;
     width: 50%;
     padding-top: 96px;
     background-color: rgba(0, 0, 0, 0.75); }
-  /* line 191, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 202, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   nav ul:hover .nav-button {
     left: 0px;
     opacity: 0; }
-  /* line 192, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 203, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   nav ul a {
     display: block;
     line-height: 64px;
     color: #fff; }
-  /* line 193, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 204, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   nav ul a li {
     border: none;
     padding: 0; }
   /*nav.color .logo { height: 96px; }
     nav.color .logo .small { height: initial; }
     nav.color .nav-button { background-color: transparent; }*/
-  /* line 200, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 211, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .header1 .vide .wrapper-vertical {
     padding: 0px 32px; }
-  /* line 201, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 212, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .header1 .vide h1 {
     font-size: 32px;
     line-height: 32px; }
-  /* line 203, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 214, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .header2 h1 {
     font-size: 45px;
     line-height: 45px; }
-  /* line 204, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 215, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .header2 h2 {
     font-size: 32px;
     line-height: 32px; }
-  /* line 205, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 216, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .header2 h3 {
     font-size: 16px;
     line-height: 16px; }
-  /* line 207, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 218, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .header3 h1 {
     font-size: 24px;
     line-height: 24px; }
-  /* line 209, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 220, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section {
     text-align: center; }
-  /* line 210, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 221, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section ul.left-nav {
     padding: 0;
     margin: 0 0 32px; }
-  /* line 211, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 222, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section ul.left-nav a {
     height: 0;
     line-height: 0px;
     overflow: hidden;
     padding: 0;
     border: none; }
-  /* line 212, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 223, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section ul.left-nav .toggle {
     display: inline-block;
     height: 48px;
@@ -997,100 +992,109 @@ img.zoom-out:hover {
     cursor: pointer;
     background-color: #eee;
     padding: 0px 12px; }
-  /* line 213, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 224, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section ul.left-nav .toggle span {
     padding: 0 6px; }
-  /* line 214, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 225, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section ul.left-nav.active a {
     height: 48px;
     line-height: 48px;
     border-bottom: 1px solid #ccc; }
-  /* line 215, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 226, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section ul.left-nav.active {
     padding: 0 0 32px; }
-  /* line 217, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 228, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section ul li {
     text-align: left; }
-  /* line 218, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 229, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .panel ul {
     list-style: none;
     padding: 0;
     margin: 0 0 10%; }
-  /* line 219, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 230, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .panel ul a.more {
     margin: 0; }
-  /* line 220, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 231, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .panel ul li {
     text-align: center; }
-  /* line 221, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 232, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .panel .row .row img {
     padding: 0; }
-  /* line 222, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 233, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .panel .row .row ul {
     margin: 0 0 8px; }
-  /* line 223, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 234, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .tiles a {
     width: 50%; }
-  /* line 224, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 235, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .tiles a img {
     width: 100%; }
-  /* line 226, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 237, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .compact-left p {
     text-align: center; }
-  /* line 228, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 239, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .visitor-carousel .wrapper {
     padding: 10% 5% 0; }
-  /* line 230, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 241, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .visitor-carousel .left-justify {
     text-align: center; }
-  /* line 231, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 242, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .visitor-carousel .navi {
     position: relative;
     margin: 0; }
-  /* line 232, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 243, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .visitor-carousel .arrow {
     position: relative;
     margin: 0; }
-  /* line 233, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 244, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .visitor-carousel .arrow.left {
     left: 0;
     margin: 0; }
-  /* line 234, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 245, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .visitor-carousel .arrow.right {
     margin: 0;
     right: 0; }
-  /* line 235, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 246, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   section .visitor-carousel .button {
     position: relative;
     left: initial;
     padding: 12px;
     left: initial;
     width: auto; }
-  /* line 237, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 248, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   footer .item {
     text-align: center; }
-  /* line 238, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 249, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   footer .divider1 {
     display: none; }
   /*Bootstrap Override*/
-  /* line 241, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 252, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .col-md-6:first-of-type {
     padding-right: 15px; }
-  /* line 242, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 253, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .col-md-6:last-of-type {
     padding-left: 15px; } }
 
 @media (max-height: 639px) and (orientation: landscape) {
   /*prevent nav from covering content*/
   /*nav.color { position: relative; }*/
-  /* line 247, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
-  .header1 .vide .wrapper-vertical {
-    /*padding: 0px 32px;*/ }
-  /* line 248, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 259, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+  .header1 .vide {
+    text-align: center;
+    position: relative;
+    background: url("") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    /* line 261, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
+    .header1 .vide .black-button {
+      margin: 12px 0 0; }
+  /* line 264, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .header1 .vide h1 {
     font-size: 32px;
     line-height: 32px; }
-  /* line 249, E:/Work/Yano Creative/Creative Leather/website/promo/3/css/stylesheet.scss */
+  /* line 265, H:/Work/Yano Creative/Creative Leather/website/promo/7/css/stylesheet.scss */
   .header2 {
     margin: 0; } }
 

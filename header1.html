@@ -10,34 +10,59 @@
         <a href="#continue" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
     </div>-->
     
-    <div class="item vide" style="background-image: url('img/header1-bg3.jpg');">
+    <div class="item vide" style="background-image: url('img/header1-bg3-1.jpg');">
         <div class="wrapper-vertical">
-            <img src="img/promo1.png"/>
-            <a class="black-button" href="#coupons"><strong>Get Sale Coupon</strong></a>
+            <img src="img/promo1-1.png"/>
+            <a class="black-button" href="#coupons"><span>ELLEN SECTIONAL:</span><strong>NOW ONLY $2999</strong></a>
 
         </div>
         <a href="#products" class="button"><span><h6>Some limitations apply. Cannot be combined with other promotions</h6></span><img src="img/down-arrow.png"/></a>
     </div>
     
-    <!--<div class="item vide" style="background-image: url('img/header1-bg4.jpg');">
+    <div class="item vide" style="background-image: url('img/header1-bg3-2.jpg');">
         <div class="wrapper-vertical">
-            <h6>In your home by Christmas</h6>
-            <img src="img/sale-text-large.png"/>
-            <a class="black-button" href="coupon.html"><strong>Save up to 33%</strong></a>
+            <img src="img/promo1-1.png"/>
+            <a class="black-button" href="#coupons"><span>CLARK SECTIONAL:</span><strong>NOW ONLY $3999</strong></a>
+
         </div>
-        <a href="#products" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
-    </div>-->
+        <a href="#products" class="button"><span><h6>Some limitations apply. Cannot be combined with other promotions</h6></span><img src="img/down-arrow.png"/></a>
+    </div>
     
-    <!--<div class="item vide" data-vide-bg="video/video2" data-vide-options="position: 50% 50%">
+    <div class="item vide" style="background-image: url('img/header1-bg3-3.jpg');">
         <div class="wrapper-vertical">
-            <h1>the world's</h1>
-            <h1>leading</h1>
-            <h1>products</h1>
-            <h6>Representing the world's leading HVAC brands</h6>
-            <a href="products.html"><h6 class="green"><strong>our product lines</strong></h6></a>
+            <img src="img/promo1-1.png"/>
+            <a class="black-button" href="#coupons"><span>AXEL SECTIONAL:</span><strong>NOW ONLY $4499</strong></a>
+
         </div>
-        <a href="#continue" class="button"><span>continue</span><img src="img/down-arrow.png"/></a>
-    </div>-->
+        <a href="#products" class="button"><span><h6>Some limitations apply. Cannot be combined with other promotions</h6></span><img src="img/down-arrow.png"/></a>
+    </div>
+
+    <div class="item vide" style="background-image: url('img/header1-bg3-4.jpg');">
+        <div class="wrapper-vertical">
+            <img src="img/promo1-1.png"/>
+            <a class="black-button" href="#coupons"><span>RAIN SECTIONAL:</span><strong>NOW ONLY $4999</strong></a>
+
+        </div>
+        <a href="#products" class="button"><span><h6>Some limitations apply. Cannot be combined with other promotions</h6></span><img src="img/down-arrow.png"/></a>
+    </div>
+
+    <div class="item vide" style="background-image: url('img/header1-bg3-5.jpg');">
+        <div class="wrapper-vertical">
+            <img src="img/promo1-1.png"/>
+            <a class="black-button" href="#coupons"><span>BELLAGIO SECTIONAL:</span><strong>SAVE UP TO 30%</strong></a>
+
+        </div>
+        <a href="#products" class="button"><span><h6>Some limitations apply. Cannot be combined with other promotions</h6></span><img src="img/down-arrow.png"/></a>
+    </div>
+
+        <div class="item vide" style="background-image: url('img/header1-bg3-6.jpg');">
+        <div class="wrapper-vertical">
+            <img src="img/promo1-2.png"/>
+            <a class="black-button" href="#coupons"><strong>GET SALE COUPON</strong></a>
+
+        </div>
+        <a href="#products" class="button"><span><h6>Some limitations apply. Cannot be combined with other promotions</h6></span><img src="img/down-arrow.png"/></a>
+    </div>
 </div>
 
 <!--<div class="wrapper">
@@ -49,8 +74,12 @@
     $.getScript('js/jquery.vide.js');
     fullscreen('.header1 .owl-carousel .item');
     fullscreen('.header1');
-    $(".header1 .owl-carousel").owlCarousel({ slideSpeed : 300, paginationSpeed : 400, singleItem:true });
     
+    $(".header1 .owl-carousel").owlCarousel({ autoplay: true, slideSpeed : 300, paginationSpeed : 400, singleItem:true });
+    $(".header1 .owl-carousel").owlCarousel().click(function(){
+        //lazy way of not including arrows heh
+        $(".header1 .owl-carousel").owlCarousel().trigger('owl.next');
+    });
     //Smoothly Scroll to Anchors
     var $root = $('html, body');
     $('a').click(function () { var href = $.attr(this, 'href'); $root.animate({ scrollTop: ($(href).offset().top) - ($('nav').height()) + 1 }, 500, function () {}); return false;});
