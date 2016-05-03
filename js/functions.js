@@ -39,12 +39,6 @@ script1.type = 'text/javascript';
 script1.src = 'js/custom-GA.js';
 $("body").append( script1 );
 
-//Google Analytics for Creative Leather
-/*var script1_2 = document.createElement( 'script' );
-script1_2.type = 'text/javascript';
-script1_2.src = 'js/custom-GA2.js';
-$("body").append( script1_2 );*/
-
 //AdRoll Pixel
 var script2 = document.createElement( 'script' );
 script2.type = 'text/javascript';
