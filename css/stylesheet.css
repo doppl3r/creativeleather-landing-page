@@ -137,7 +137,7 @@ nav.color {
 .header1 .vide {
   text-align: center;
   position: relative;
-  background: url("") no-repeat top center;
+  background: url(".") no-repeat bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -933,7 +933,7 @@ img.zoom-out:hover {
   .header1 .vide {
     text-align: center;
     position: relative;
-    background: url("") no-repeat center center;
+    background: url(".") no-repeat bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
