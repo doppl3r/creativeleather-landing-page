@@ -137,7 +137,7 @@ nav.color {
 .header1 .vide {
   text-align: center;
   position: relative;
-  background: url(".") no-repeat bottom center;
+  background: url(".") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -145,7 +145,7 @@ nav.color {
   .header1 .vide .black-button {
     display: inline-block;
     padding: 16px 32px;
-    margin: 10% 0 0;
+    margin: 2% 0 0;
     font-size: 24px;
     text-transform: uppercase;
     font-family: 'roboto-condensedregular';
